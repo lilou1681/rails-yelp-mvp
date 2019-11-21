@@ -1,1 +1,6 @@
-<h1>show</h1>
+<h1><%= @restaurant.name %></h1>
+<p>Address: <%= @restaurant.address %></p>
+<p>Phone:  <%= @restaurant.phone_number %></p>
+<p>Category: <%= @restaurant.category %></p>
+
+ <button> <%= link_to "Back to restaurants", restaurants_path %></button>

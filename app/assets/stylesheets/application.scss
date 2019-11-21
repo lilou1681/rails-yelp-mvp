@@ -1,1 +1,23 @@
 @import "bootstrap/scss/bootstrap";
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+.banner {
+  background: #640a1a;
+  padding:10px;
+  h1 {
+    font-size: 50px;
+    color:#fff;
+    text-align: center;
+  }
+}
+.form{
+  padding:10px;
+  color:#640a1a;
+  input{
+    color:#640a1a;
+  }
+}
+
